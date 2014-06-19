@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/press_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Press to start the drive"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/car_drive_start"
+        android:layout_width="166dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/engine_start" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/car_drive_stop"
+        android:layout_width="166dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/engine_stop"
+        android:visibility="gone" />
+
+</LinearLayout>
