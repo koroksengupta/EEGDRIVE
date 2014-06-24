@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">EEG Drive</string>
-    	<string-array name="ice_cream_flavor">
+
+    <string name="app_name">ProxymityAlert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_proxymity">ProxymityActivity</string>
+            <string-array name="ice_cream_flavor">
         <item>Vanilla</item>
         <item>Strawberry</item>
         <item>Chocolate</item>
@@ -29,4 +32,6 @@
     <string name="ice_cream_flavor_txt">Choose your favorite ice-cream flavor</string>
     <string name="your_age_txt">What is your age?</string>
     <string name="your_age_hint">Type your age here</string>
+    
+
 </resources>
